@@ -1,0 +1,5 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory '/cygdrive/d/Programming/tryMake'
+gcc -Wall -O2 main/main.c mymath/mymath.c -o try -I./mymath -lm
+make: Leaving directory '/cygdrive/d/Programming/tryMake'
+ 

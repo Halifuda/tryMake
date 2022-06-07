@@ -1,0 +1,385 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jun  7 16:59:47 2022
+
+# Variables
+
+ 
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+ACSVCPORT = 17532
+# environment
+USERPROFILE = C:\Users\Anyuda
+# environment
+LOCALAPPDATA = C:\Users\Anyuda\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-05f66cb4-105e-45a4-9a86-52610d7ae3c9-sock
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = D:\Programming\tryMake
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from 'config.mk', line 5)
+LIBS = -lm
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Users\Anyuda\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9116_UPIGOCHBXDLAAZSF
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CYGWIN = C:\cygwin64
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Anyuda\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/Anyuda/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MINGW = C:\MinGW
+# environment
+ONEDRIVE = D:\Onedrive
+# makefile
+CURDIR := /cygdrive/d/Programming/tryMake
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+ 
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'config.mk', line 1)
+MAKEFILE_LIST := Makefile config.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 9116
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# makefile (from 'config.mk', line 3)
+INCLUDES = -I./mymath
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VTUNE_PROFILER_2022_DIR = C:\Program Files (x86)\Intel\oneAPI\vtune\2022.2.0
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"C:\\Users\\Anyuda\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Anyuda\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Anyuda\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\Anyuda\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEAPI_ROOT = C:\Program Files (x86)\Intel\oneAPI\
+# environment
+ONEDRIVECONSUMER = D:\Onedrive
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\Anyuda
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+IPG_VER = 3.6
+# environment
+PATH = /cygdrive/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt:/cygdrive/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt:/cygdrive/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler:/cygdrive/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler:/cygdrive/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/Bandizip:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Users/Anyuda/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Anyuda/.dotnet/tools:/cygdrive/c/MinGW/bin:/cygdrive/c/Users/Anyuda/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/Anyuda/AppData/Local/GitHubDesktop/bin:/cygdrive/c/MinGW/msys/1.0:%MinGW/msys/1.0/bin:/usr/bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-DU0TI5L
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+WT_SESSION = 05b959ba-126b-435e-92c0-8116ffc4d213
+# environment
+LOGONSERVER = \\DESKTOP-DU0TI5L
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+IPG_DIR = C:\Program Files\Intel\Power Gadget 3.6
+# environment
+USERNAME = Anyuda
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+ 
+# environment
+VS2022INSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-DU0TI5L
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'config.mk', line 10)
+SOURCE = ./main/main.c ./mymath/mymath.c
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+!D: = d:\Programming\tryMake
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-DU0TI5L
+# environment
+NUMBER_OF_PROCESSORS = 20
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Anyuda\AppData\Roaming
+# makefile (from 'config.mk', line 7)
+CFLAGS = -Wall -O2
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/Anyuda
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/Anyuda/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d49de8f30b5bf996570240462cbfe24e-1.67.2-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'config.mk', line 12)
+TARGET = try
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 9702
+# makefile (from 'config.mk', line 1)
+CC = gcc
+# environment
+ADVISOR_2022_DIR = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.1.0
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=115/1024=11%, Rehash=0, Collisions=20/156=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1592595524, inode 3377699720551785): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 16:59:12.2513551
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mymath/mymath.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 22:22:31.0715142
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	rm -f $(TARGET)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: try
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+run: build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	./$(TARGET)
+
+# Not a target:
+config.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 16:59:05.5096907
+#  File has been updated.
+#  Successfully updated.
+
+build: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+try: main/main.c mymath/mymath.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := try
+# automatic
+# * := 
+# automatic
+# < := main/main.c
+# automatic
+# + := main/main.c mymath/mymath.c
+# automatic
+# % := 
+# automatic
+# ^ := main/main.c mymath/mymath.c
+# automatic
+# ? := main/main.c mymath/mymath.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/17=29%
+#  recipe to execute (from 'Makefile', line 7):
+	$(CC) $(CFLAGS) $^ -o $@ $(INCLUDES) $(LIBS)
+
+# Not a target:
+main/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 22:24:04.9597077
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean build run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/39=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 153 B / avg = 7 B
+# current buf: size = 8162 B / used = 153 B / count = 20 / avg = 7 B
+
+# strcache performance: lookups = 44 / hit rate = 54%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/44=0%
+# Finished Make data base on Tue Jun  7 16:59:47 2022
+
+ 
