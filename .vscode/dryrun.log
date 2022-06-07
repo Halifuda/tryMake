@@ -1,5 +1,17 @@
-make.exe --dry-run --keep-going --print-directory
+make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/cygdrive/d/Programming/tryMake'
 gcc -Wall -O2 main/main.c mymath/mymath.c -o try -I./mymath -lm
+make -C subproc1
+ 
+make[1]: Entering directory '/cygdrive/d/Programming/tryMake/subproc1'
+gcc -Wall -O2  -I../mymath subproc1.c -o subproc1 -lm
+make[1]: Leaving directory '/cygdrive/d/Programming/tryMake/subproc1'
+ 
+make -C subproc2
+ 
+make[1]: Entering directory '/cygdrive/d/Programming/tryMake/subproc2'
+gcc -Wall -O2  -I../mymath subproc2.c -o subproc2 -lm
+make[1]: Leaving directory '/cygdrive/d/Programming/tryMake/subproc2'
+ 
 make: Leaving directory '/cygdrive/d/Programming/tryMake'
  

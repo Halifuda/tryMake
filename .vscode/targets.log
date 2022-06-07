@@ -7,12 +7,12 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Jun  7 16:59:47 2022
+# Make data base, printed on Tue Jun  7 20:46:00 2022
 
 # Variables
 
- 
 # environment
+ 
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
@@ -23,14 +23,14 @@ USERPROFILE = C:\Users\Anyuda
 # environment
 LOCALAPPDATA = C:\Users\Anyuda\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-05f66cb4-105e-45a4-9a86-52610d7ae3c9-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-eddfe420-78db-4507-b110-727ee31ebedd-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
 VSCODE_CWD = D:\Programming\tryMake
 # environment
 SYSTEMROOT = C:\Windows
-# makefile (from 'config.mk', line 5)
+# makefile (from 'config.mk', line 10)
 LIBS = -lm
 # environment
 PROCESSOR_LEVEL = 6
@@ -41,7 +41,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9116_UPIGOCHBXDLAAZSF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25460_RUYNQOQJAPGGAFDR
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -76,6 +76,8 @@ ONEDRIVE = D:\Onedrive
 CURDIR := /cygdrive/d/Programming/tryMake
 # environment
 VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 65)
+CLEANSUBPROC = $(patsubst %, clean%, $(SUBPROC))
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -88,7 +90,6 @@ MFLAGS = -pqrR
 .SHELLFLAGS := -c
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
- 
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # makefile (from 'config.mk', line 1)
@@ -98,12 +99,12 @@ MAKEFILE_LIST := Makefile config.mk
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9116
+VSCODE_PID = 25460
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
 WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
-# makefile (from 'config.mk', line 3)
+# makefile (from 'config.mk', line 8)
 INCLUDES = -I./mymath
 # automatic
 *F = $(notdir $*)
@@ -139,6 +140,7 @@ MAKELEVEL := 0
 MAKE = $(MAKE_COMMAND)
 # environment
 IPG_VER = 3.6
+ 
 # environment
 PATH = /cygdrive/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt:/cygdrive/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt:/cygdrive/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler:/cygdrive/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler:/cygdrive/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/Bandizip:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Users/Anyuda/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Anyuda/.dotnet/tools:/cygdrive/c/MinGW/bin:/cygdrive/c/Users/Anyuda/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/Anyuda/AppData/Local/GitHubDesktop/bin:/cygdrive/c/MinGW/msys/1.0:%MinGW/msys/1.0/bin:/usr/bin
 # environment
@@ -152,7 +154,7 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-WT_SESSION = 05b959ba-126b-435e-92c0-8116ffc4d213
+WT_SESSION = 551132ce-6af0-4f52-a4e2-7d68e55571ba
 # environment
 LOGONSERVER = \\DESKTOP-DU0TI5L
 # environment
@@ -163,7 +165,6 @@ IPG_DIR = C:\Program Files\Intel\Power Gadget 3.6
 USERNAME = Anyuda
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
- 
 # environment
 VS2022INSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community
 # automatic
@@ -182,10 +183,10 @@ USERDOMAIN = DESKTOP-DU0TI5L
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# makefile (from 'Makefile', line 43)
+SUBPROC = subproc1 subproc2
 # makefile
 .DEFAULT_GOAL := all
-# makefile (from 'config.mk', line 10)
-SOURCE = ./main/main.c ./mymath/mymath.c
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -197,10 +198,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-DU0TI5L
 # environment
 NUMBER_OF_PROCESSORS = 20
 # environment
+ 
 PUBLIC = C:\Users\Public
 # environment
 APPDATA = C:\Users\Anyuda\AppData\Roaming
-# makefile (from 'config.mk', line 7)
+# makefile (from 'config.mk', line 12)
 CFLAGS = -Wall -O2
 # environment
 HOMEDRIVE = C:
@@ -228,8 +230,8 @@ TERM = xterm-256color
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
-# makefile (from 'config.mk', line 12)
-TARGET = try
+# makefile (from 'Makefile', line 15)
+TARGET := try
 # environment
 VSCODE_CLI = 1
 # environment
@@ -238,14 +240,17 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
 PROCESSOR_REVISION = 9702
-# makefile (from 'config.mk', line 1)
+# makefile (from 'config.mk', line 6)
 CC = gcc
 # environment
 ADVISOR_2022_DIR = C:\Program Files (x86)\Intel\oneAPI\advisor\2022.1.0
+# makefile (from 'Makefile', line 13)
+SOURCES = ./main/main.c ./mymath/mymath.c
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
 # variable set hash-table stats:
-# Load=115/1024=11%, Rehash=0, Collisions=20/156=13%
+ 
+# Load=117/1024=11%, Rehash=0, Collisions=20/169=12%
 
 # Pattern-specific Variable Values
 
@@ -253,20 +258,41 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
 
 # Directories
 
-# . (device 1592595524, inode 3377699720551785): 9 files, no impossibilities.
+# . (device 1592595524, inode 3377699720551785): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
+ 
 
 # No implicit rules.
 
 # Files
 
+cleansubproc: cleansubproc1 cleansubproc2
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+subproc: subproc1 subproc2
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+subproc2:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(MAKE) -C $@
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-07 16:59:12.2513551
+#  Last modified 2022-06-07 18:27:02.0175284
 #  File has been updated.
 #  Successfully updated.
 
@@ -277,13 +303,28 @@ mymath/mymath.c:
 #  File has been updated.
 #  Successfully updated.
 
-clean:
+cleansubproc1:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 12):
-	rm -f $(TARGET)
+#  recipe to execute (from 'Makefile', line 70):
+	$(MAKE) -C $(patsubst clean%, %, $@) clean
+	
+
+clean: cleanmain cleansubproc
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+subproc1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(MAKE) -C $@
 
 # Not a target:
 .DEFAULT:
@@ -291,9 +332,10 @@ clean:
 #  Modification time never checked.
 #  File has not been updated.
 
-all: try
+all: main subproc
+#  Phony target (prerequisite of .PHONY).
 #  Command line target.
-#  Implicit rule search has been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
@@ -305,13 +347,14 @@ run: build
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 19):
-	./$(TARGET)
+#  recipe to execute (from 'Makefile', line 79):
+	@ echo 'running $(TARGET):'
+	@ ./$(TARGET)
 
 # Not a target:
 config.mk:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-07 16:59:05.5096907
+#  Last modified 2022-06-07 17:49:29.2094938
 #  File has been updated.
 #  Successfully updated.
 
@@ -320,6 +363,33 @@ build: all
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+
+main: try
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+cleanmain:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	$(RM) $(TARGET)
+
+cleansubproc2:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+ 
+	$(MAKE) -C $(patsubst clean%, %, $@) clean
+	
 
 try: main/main.c mymath/mymath.c
 #  Implicit rule search has not been done.
@@ -345,7 +415,7 @@ try: main/main.c mymath/mymath.c
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=5/17=29%
-#  recipe to execute (from 'Makefile', line 7):
+#  recipe to execute (from 'Makefile', line 36):
 	$(CC) $(CFLAGS) $^ -o $@ $(INCLUDES) $(LIBS)
 
 # Not a target:
@@ -359,27 +429,28 @@ main/main.c:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
-.PHONY: clean build run
+.PHONY: all main subproc subproc1 subproc2 clean cleanmain cleansubproc cleansubproc1 cleansubproc2 build run
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/39=0%
+# Load=20/1024=2%, Rehash=0, Collisions=0/75=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 153 B / avg = 7 B
-# current buf: size = 8162 B / used = 153 B / count = 20 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 217 B / avg = 8 B
+# current buf: size = 8162 B / used = 217 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 44 / hit rate = 54%
+# strcache performance: lookups = 84 / hit rate = 69%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/44=0%
-# Finished Make data base on Tue Jun  7 16:59:47 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/84=0%
+# Finished Make data base on Tue Jun  7 20:46:00 2022
 
  
