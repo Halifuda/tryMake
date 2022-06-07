@@ -14,12 +14,13 @@ SOURCES += ./mymath/mymath.c
 # arguement defined by := will be parse immediately when make starts.
 TARGET := try
 
+SHELL = /bin/sh
 
 # ---- PHONY TARGET ----
 # use '.PHONY' to note a target that does not represent a target filename.
 # call this type of target 'phony target', or a 'label'.
 # if we do not use it, when there is a file named 'clean' under working 
-# directory and the target 'clean' has no dependency, make will ignore
+# directory and the target 'clean' has no prerequisit, make will ignore
 # clean for it will be regarded as newest.
 .PHONY: all main
 all: main subproc
@@ -29,10 +30,10 @@ main: $(TARGET)
 
 # ---- AUTO ARG ----
 $(TARGET): $(SOURCES)
-# $^ representing all dependencies in this target;
+# $^ representing all prerequisites in this target;
 # $@ representing the target;
-# $< representing the first dependency;
-# $? representing the dependencies that changed since last make.
+# $< representing the first prerequisit;
+# $? representing the prerequisites that changed since last make.
 	$(CC) $(CFLAGS) $^ -o $@ $(INCLUDES) $(LIBS)
 
 
@@ -44,7 +45,7 @@ SUBPROC += subproc2
 
 # note the target and the subdirs in the arguement as .PHONY.
 .PHONY: subproc $(SUBPROC)
-# let the arguement be the dependency.
+# let the arguement be the prerequisit.
 subproc: $(SUBPROC)
 # for each subdir in the arguement, make will run the command below.
 $(SUBPROC): 
